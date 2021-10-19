@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(Foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.crear{
+    background-image: url();
+    background-size: cover;
+}
+h1{
+    margin-bottom: 0px;
+    padding-top: 55px;
+    font-size: 60px;
+    font-size: 'satisfly', cursive;
+    display: flex;
+    justify-content: center;
+}
+.edid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tam{
+    margin: 5px;
+}
+.login-btn{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    width: 10em;
+    height: 2em;
+    background-color: rgb(182, 194, 12);
+    border-radius: 100px;
+    border: 0px;
+    font-size: 1em;
+    color: rgb(11, 190, 56);
+    box-shadow: 0px 5px 0px rgb(0, 0, 0);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.input{
+    width: 30em;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 3px 10px red(0,0,0,0,.60);
+}
+.uno{
+    height: 2.5em;
+}
+.dos{
+    height: 7em;
+}
+.tareas-linea-uno{
+    margin: 8px;
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: rgb(180, 180, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.tareas-linea-dos{
+    margin: 8px;
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: rgb(187, 187, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
